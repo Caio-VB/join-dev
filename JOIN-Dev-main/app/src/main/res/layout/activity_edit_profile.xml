@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_background"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/EditLayoutEmailInput"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="emailAddress"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/EditLayoutEditTextEmailHint"
+        android:text="@string/EditLayoutEditTextEmailDefaultValue"
+        android:inputType="text|textEmailAddress"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditLayoutNameInput" />
+
+    <EditText
+        android:id="@+id/EditLayoutPhoneInput"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="emailAddress"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/EditLayoutEditTextPhoneHint"
+        android:text="@string/EditLayoutEditTextPhoneDefaultValue"
+        android:inputType="phone"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditLayoutEmailInput" />
+
+    <Button
+        android:id="@+id/EditLayoutButtonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black_background"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/PatternButtonBackText"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/PatternImageViewLogo"
+        android:contentDescription="@string/PatternImageViewLogoContentDescription"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/EditLayoutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/EditLayoutTextViewText"
+        android:textColor="@color/salmon"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PatternImageViewLogo" />
+
+    <EditText
+        android:id="@+id/EditLayoutNameInput"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:autofillHints="emailAddress"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/EditLayoutEditTextNameHint"
+        android:text="@string/EditLayoutEditTextNameDefaultValue"
+        android:inputType="text"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditLayoutText" />
+
+    <Button
+        android:id="@+id/EditLayoutSendButton"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/salmon"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/EditLayoutEditButtonText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditLayoutPhoneInput"
+        app:layout_constraintVertical_bias="0.525"
+        tools:ignore="TextContrastCheck" />
+
+
+    <CheckBox
+        android:id="@+id/MainFeedCheckBoxStudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/EditLayoutCheckboxText"
+        app:layout_constraintTop_toBottomOf="@+id/EditLayoutPhoneInput"
+        app:layout_constraintBottom_toTopOf="@+id/EditLayoutSendButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

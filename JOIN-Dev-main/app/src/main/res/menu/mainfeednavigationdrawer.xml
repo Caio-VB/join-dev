@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:checked="true"
+            android:icon="@drawable/ic_baseline_create_new_folder_24"
+            android:title="@string/NavigationDrawerItemProjectText" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item2"
+            android:checked="true"
+            android:icon="@drawable/ic_baseline_contacts_24"
+            android:title="@string/NavigationDrawerItemEditProfileText" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item3"
+            android:checked="true"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/NavigationDrawerItemExitText" />
+    </group>
+</menu>

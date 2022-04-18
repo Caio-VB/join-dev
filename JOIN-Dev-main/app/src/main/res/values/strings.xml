@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Join Dev</string>
+
+    <string name="MainLayoutButtonRegisterText">Cadastre-se</string>
+    <string name="MainLayoutButtonLoginText">Faça login</string>
+    <string name="MainLayoutTextViewLoginText">ou</string>
+    <string name="MainLayoutTextViewLogoText"><![CDATA[<p>Conecte-se com desenvolvedores, aprenda, trabalhee faça amigos. </p>]]></string>
+
+    <string name="PatternImageViewLogoContentDescription">App Logo</string>
+    <string name="PatternButtonBackText"><![CDATA[< Voltar]]></string>
+
+    <string name="LoginLayoutTextViewText">Conecte-se !</string>
+    <string name="LoginLayoutEditTextEmailAddressHint">E-mail</string>
+    <string name="LoginLayoutEditTextPasswordHint">Senha</string>
+    <string name="LoginLayoutButtonLoginText">Entrar</string>
+    <string name="LoginLayoutButtonPasswordMissingText">Esqueci minha senha</string>
+
+    <string name="RegisterLayoutTextViewText">Cadastre-se!</string>
+    <string name="RegisterLayoutEditTextEmailHint">E-mail</string>
+    <string name="RegisterLayoutEditTextPasswordRepeatHint">Repita sua senha</string>
+    <string name="RegisterLayoutEditTextPasswordHint">Senha</string>
+    <string name="RegisterLayoutEditTextPhoneHint">Telefone</string>
+    <string name="RegisterLayoutEditTextNameHint">Nome</string>
+    <string name="RegisterLayoutRegisterButtonText">Cadastrar</string>
+
+    <string name="PasswordLayoutTextViewText">Esqueci minha senha</string>
+    <string name="PasswordLayoutButtonSendText">Enviar código</string>
+    <string name="PasswordLayoutEmailInputHint">E-mail</string>
+
+    <string name="PasswordRecoveryLayoutEditTextPasswordHint">Nova Senha</string>
+    <string name="PasswordRecoveryLayoutButtonText">Recuperar Senha</string>
+    <string name="PasswordRecoveryLayoutEditTextCodeHint">Código</string>
+    <string name="PasswordRecoveryLayoutEditTextPasswordRepeatHint">Repita a nova Senha</string>
+    <string name="PasswordRecoveryLayoutTextViewText">Digite o código e uma nova senha!</string>
+
+    <string name="FeedItemTextViewTitleText">TITULO</string>
+    <string name="FeedItemImageViewIconDescription">Icone do Item</string>
+    <string name="FeedItemTextViewDescriptionText">Descrição</string>
+    <string name="FeedItemTextViewDescriptionTextText">Texto Descrição</string>
+    <string name="FeedItemTextViewRequisitesText">Requisitos</string>
+    <string name="FeedItemTextViewRequisitesTextText">Texto Requisitos</string>
+    <string name="FeedItemTextViewPositionsText">Vagas Disponiveis</string>
+    <string name="FeedItemTextViewPositionsQuantityText">Quantidade Vagas</string>
+    <string name="FeedItemButtonText">Solicite para participar</string>
+
+    <string name="MainFeedButtonText">Mostre-me outro!</string>
+    <string name="MainFeedTextViewTechnologyText">Tecnologia:</string>
+    <string name="MainFeedTextViewPurposeText">Propósito:</string>
+    <string name="MainFeedCheckBoxStudyText">Estudo</string>
+    <string name="MainFeedCheckBoxJobText">Trabalho</string>
+
+    <string name="EditLayoutTextViewText">Edite suas informações</string>
+    <string name="EditLayoutEditButtonText">Confirmar edição</string>
+    <string name="EditLayoutEditTextEmailHint">E-mail</string>
+    <string name="EditLayoutEditTextEmailDefaultValue">my_email@aluno.ufabc.edu.br</string>
+    <string name="EditLayoutEditTextPhoneHint">Telefone</string>
+    <string name="EditLayoutEditTextPhoneDefaultValue">(99) 99999–9999</string>
+    <string name="EditLayoutEditTextNameHint">Nome</string>
+    <string name="EditLayoutEditTextNameDefaultValue">João da Silva</string>
+    <string name="EditLayoutCheckboxText">Tenho certeza que desejo alterar meus dados</string>
+
+    <string name="PublishLayoutTextViewTitleText">Titulo do Projeto</string>
+    <string name="PublishLayoutTextViewDescriptionText">Descrição do Projeto</string>
+    <string name="PublishLayoutTextViewRequisitesText">Requisitos do Projeto</string>
+    <string name="PublishLayoutTextViewTechnologyText">Tecnologia:</string>
+    <string name="PublishLayoutEditTextTitleText">Título</string>
+    <string name="PublishLayoutTextViewQuantityText">Quantidade de vagas:</string>
+    <string name="PublishLayoutButtonPublishText">Publicar!</string>
+    <string name="PublishLayoutEditTextTitleHint">Titulo do projeto</string>
+    <string name="PublishLayoutEditTextDescriptionHint">Descrição do Projeto</string>
+    <string name="PublishLayoutEditTextRequisitesHint">Requisitos do Projeto</string>
+    <string name="NavigationDrawerItemProjectText">Publicar um projeto</string>
+    <string name="NavigationDrawerItemEditProfileText">Edite seu perfil</string>
+    <string name="NavigationDrawerItemExitText">Sair</string>
+    <string name="MainFeedButtonOptionsText">Opções</string>
+
+    <string-array name="programming_language">
+        <item>Todas</item>
+        <item>Java</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Python</item>
+        <item>HTML5 + CSS</item>
+        <item>JavaScript</item>
+        <item>Ruby</item>
+    </string-array>
+
+    <string-array name="quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MainOptionsButtonProjectsText">Meus Projetos</string>
+    <string name="MainOptionsButtonEditProfileText">Editar Perfil</string>
+    <string name="MainOptionsButtonExitAppText">Sair do App</string>
+    <string name="MainOptionsTextViewProfileNameText">Nome Perfil</string>
+    <string name="MainOptionsTextViewProfileEmailText">E-mail Perfil</string>
+    <string name="ProjectItemTextViewTitleText">Titulo Projeto</string>
+    <string name="ProjectItemButtonDeleteText">Excluir</string>
+
+</resources>

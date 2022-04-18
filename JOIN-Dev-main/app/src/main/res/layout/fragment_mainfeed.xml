@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFeed"
+    android:background="@color/black_background">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/MainFeedFragmentContainerView"
+        android:name="br.edu.ufabc.joindev.FeedItem"
+        android:layout_width="317dp"
+        android:layout_height="388dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainFeedCheckBoxStudy"
+        tools:layout="@layout/fragment_feeditem" />
+
+    <Button
+        android:id="@+id/MainFeedButton"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/salmon"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/MainFeedButtonText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainFeedFragmentContainerView"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <TextView
+        android:id="@+id/MainFeedTextViewTechnology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/MainFeedTextViewTechnologyText"
+        android:textColor="@color/salmon"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/MainFeedSpinner"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainFeedButtonOptions" />
+
+    <TextView
+        android:id="@+id/MainFeedTextViewPurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/MainFeedTextViewPurposeText"
+        android:textStyle="bold"
+        android:textColor="@color/salmon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainFeedTextViewTechnology" />
+
+    <CheckBox
+        android:id="@+id/MainFeedCheckBoxStudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/MainFeedCheckBoxStudyText"
+        app:layout_constraintStart_toEndOf="@+id/MainFeedTextViewPurpose"
+        app:layout_constraintTop_toBottomOf="@+id/MainFeedSpinner" />
+
+    <CheckBox
+        android:id="@+id/MainFeedCheckBoxJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/MainFeedCheckBoxJobText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/MainFeedCheckBoxStudy"
+        app:layout_constraintTop_toBottomOf="@+id/MainFeedSpinner" />
+
+    <Spinner
+        android:id="@+id/MainFeedSpinner"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="28dp"
+        android:background="@color/white"
+        android:entries="@array/programming_language"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MainFeedButtonOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/salmon"
+        android:fontFamily="@font/open_sans"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/MainFeedButtonOptionsText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

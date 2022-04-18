@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainoptions"
+    android:background="@color/black_background">
+
+    <Button
+        android:id="@+id/MainOptionsButtonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black_background"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/PatternButtonBackText"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MainOptionsButtonProjects"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/salmon"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/MainOptionsButtonProjectsText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainOptionsTextViewProfileEmail" />
+
+    <Button
+        android:id="@+id/MainOptionsButtonEditProfile"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/salmon"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/MainOptionsButtonEditProfileText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainOptionsButtonProjects" />
+
+    <Button
+        android:id="@+id/MainOptionsButtonExitApp"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="@color/salmon"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/MainOptionsButtonExitAppText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainOptionsButtonEditProfile" />
+
+    <TextView
+        android:id="@+id/MainOptionsTextViewProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/MainOptionsTextViewProfileNameText"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainOptionsButtonBack" />
+
+    <TextView
+        android:id="@+id/MainOptionsTextViewProfileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/MainOptionsTextViewProfileEmailText"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainOptionsTextViewProfileName" />
+</androidx.constraintlayout.widget.ConstraintLayout>
